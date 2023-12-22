@@ -117,7 +117,7 @@ pre::selection {
 
 footer {
     position:relative;
-    bottom: -10px;
+    bottom: 5px;
     margin: 0 auto 20px;
     width: fit-content;
     text-align: center;
