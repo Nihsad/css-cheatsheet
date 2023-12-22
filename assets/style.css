@@ -12,6 +12,9 @@
 }
 
 body {
+    min-height: 100vh;
+    grid-template-rows: max-content max-content auto;
+    display: grid;
     background-color: var(--bg);
     padding: 0 20px;
     font-size: 16px;
@@ -116,8 +119,7 @@ pre::selection {
 }
 
 footer {
-    position:relative;
-    bottom: 5px;
+    align-self: end;
     margin: 0 auto 20px;
     width: fit-content;
     text-align: center;
